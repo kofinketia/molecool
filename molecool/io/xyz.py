@@ -1,7 +1,7 @@
 """
 functions for manipulating xyz files.
 """
-
+import numpy as np
 def open_xyz(file_location):
 
     # Open an xyz file and return symbols and coordinates.

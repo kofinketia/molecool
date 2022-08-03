@@ -1,7 +1,7 @@
 """
 Functions for manipulating pdb files.
 """
-
+import numpy as np
 def open_pdb(file_location):
     """Open and read coordinates and atom symbols from a pdb file.
 
